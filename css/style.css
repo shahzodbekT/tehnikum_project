@@ -509,3 +509,22 @@ h4 {
     flex-direction: column;
   }
 }
+
+.secondThird {
+  margin-left: 90px;
+}
+
+.secondThird h2 {
+  margin-bottom: 45px;
+}
+
+.themesWrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr 1fr;
+  gap: 40px 130px;
+}
+
+.theme {
+  padding: 50px 40px 30px;
+}
